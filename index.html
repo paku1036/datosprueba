@@ -49,8 +49,7 @@
     <div id="right-panel">
       <p>Total Distance: <span id="total"></span></p>
     </div>
-	    <script   src="./geoxml3/kmz/geoxml3.js">   </script>	
-    <script>
+     <script>
       function initMap() {
  
 			
@@ -60,7 +59,7 @@
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("map"), myOptions);
-    var kmzLayer = new google.maps.KmlLayer('https://github.com/paku1036/datosprueba/blob/main/area_2.kml');
+    var kmzLayer = new google.maps.KmlLayer('https://paku1036.github.io/area_2.kml');
 	//var kmzLayer = new google.maps.KmlLayer('http://xeenat.com/energy/data.kmz');
     kmzLayer.setMap(map);
 	
